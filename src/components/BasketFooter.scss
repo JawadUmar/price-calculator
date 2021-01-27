@@ -1,0 +1,12 @@
+.footer {
+    & > div {
+        flex: 1 1 0;
+    }
+        
+    padding-bottom: 1rem;
+    margin: 2rem;
+
+    display: -webkit-flex;
+    display: flex;
+    align-items: flex-end;
+}

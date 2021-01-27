@@ -1,0 +1,35 @@
+{
+  "name": "price-calculator",
+  "version": "0.0.1",
+  "private": true,
+  "devDependencies": {
+    "enzyme": "3.11.0",
+    "enzyme-adapter-react-16": "1.15.6",
+    "node-sass": "4.14.1",
+    "prettier": "2.2.1",
+    "react-scripts": "3.4.4"
+  },
+  "dependencies": {
+    "axios": "0.21.1",
+    "prop-types": "15.7.2",
+    "react": "16.14.0",
+    "react-dom": "16.14.0",
+    "react-redux": "7.2.2",
+    "redux": "4.0.5",
+    "redux-logger": "3.0.6",
+    "redux-thunk": "2.3.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "eject": "react-scripts eject",
+    "test": "react-scripts test --env=node",
+    "pretty": "prettier --write \"./**/*.{js,jsx,json}\""
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
